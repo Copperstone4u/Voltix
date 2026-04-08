@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RevParts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>RevParts</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">Lights</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Upgrade Your E-Bike</h2>
+  <p>Lights, wraps, and performance parts</p>
+  <button>Shop Now</button>
+</section>
+
+<section class="products">
+  <div class="product">
+    <img src="images/light.jpg">
+    <h3>Baja Light</h3>
+    <p>$45</p>
+    <button onclick="addToCart('Baja Light')">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="images/ignition.jpg">
+    <h3>Key Ignition</h3>
+    <p>$25</p>
+    <button onclick="addToCart('Key Ignition')">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="images/wrap.jpg">
+    <h3>Bike Wrap</h3>
+    <p>$30</p>
+    <button onclick="addToCart('Bike Wrap')">Add to Cart</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
