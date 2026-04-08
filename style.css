@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f0f0f;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: black;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('images/banner.jpg') no-repeat center/cover;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: red;
+  border: none;
+  color: white;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.product {
+  background: #1a1a1a;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.product img {
+  width: 200px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
